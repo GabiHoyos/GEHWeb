@@ -1,0 +1,37 @@
+/* Propiedades absolutas */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HTML */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+/* Head */
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* NavBar */
+nav {
+    list-style-type: none;
+}
+nav ul li { 
+    display: inline-block;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+/* Footer */
+footer a {
+    text-decoration: none;
+}
